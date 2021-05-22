@@ -1,0 +1,5 @@
+cmds compile and run C program
+1. // To compile cmd : gcc file.c -o file
+   // for pthread cmd : gcc file.c -o file -lpthread
+   // for openmp cmd : gcc file.c -o file -fopenmp
+2. // To run cmd: ./file 

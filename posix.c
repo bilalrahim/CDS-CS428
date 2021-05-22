@@ -22,9 +22,8 @@ int main()
     printf("In main function \n");
     pthread_create(&t1, NULL, foo, NULL);
     pthread_create(&t2, NULL, fee, NULL);
-
-    pthread_join(t1, NULL);
-    pthread_join(t2, NULL);
     
+    pthread_join(t1, NULL);
+    pthread_join(t2, NULL); 
     return 0;    
 }
